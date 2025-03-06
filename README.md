@@ -4,3 +4,4 @@ El administrador puede agregar, modificar y eliminar productos.
 Los usuarios pueden comprar productos y ver sus tickets.
 
 Al ser un proyecto escolar, es posible optimizar o agregar funciones al código.
+(Se adjunta archivo .apk de la version actual).
