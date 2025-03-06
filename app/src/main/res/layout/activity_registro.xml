@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/shape_toolbar">
+
+        <ImageView
+            android:id="@+id/iconoApp"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@mipmap/logojessure"
+            tools:srcCompat="@mipmap/logojessure" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iconoApp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="¡Hola Bienvenid@!\nIngresa tu usuario y contraseña"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/txtaUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="320dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_usuario"
+        android:backgroundTint="@android:color/darker_gray"
+        android:gravity="center"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/txtaPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:drawableLeft="@drawable/ic_psw"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtaVPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:drawableLeft="@drawable/ic_verificar"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Verificar Contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingLeft="5dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/shape_button"
+        android:text="Registrarse"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</FrameLayout>

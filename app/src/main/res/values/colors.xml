@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amarillo_claro">#F3EDBC</color>
+    <color name="amarillo">#f6e663</color>
+    <color name="rosa_var">#E8A7F3</color>
+    <color name="rosa">#EFA5BE</color>
+    <color name="azul">#41a6f5</color>
+    <color name="azul_claro">#81C1F4</color>
+    <color name="azul_var">#bcdbf4</color>
+    <color name="verde_claro">#a1ef47</color>
+    <color name="verde_bonito">#33ea91</color>
+    <color name="verde_lima">#D3F3AE</color>
+    <color name="verde_var">#EDF3B7</color>
+    <color name="naranja_claro">#F4B6A3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

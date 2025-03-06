@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">JESSURI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="presentacion">Esta es una idea de una aplicacion de compras para productos de moda.\n\nSe pueden realizar compras con los productos que hayan sido dados de alta por el administrador, y los clientes comunes y los clientes VIP podran comprarlos, se otorgarán sus tickets y la cuenta total de los productos que hayan comprado.\n\nEl administrador podra ver, editar y borrar datos de los tickets,usuarios y productos.
+    </string>
+
+    <string-array name="Categoria">
+        <item>Seleccionar</item>
+        <item>Sombras</item>
+        <item>Labios</item>
+        <item>Rubores</item>
+        <item>Correctores</item>
+    </string-array>
+
+    <string-array name="Compras">
+        <item>Ver todo</item>
+        <item>Sombras</item>
+        <item>Labios</item>
+        <item>Rubores</item>
+        <item>Correctores</item>
+    </string-array>
+
+    <string-array name="Rangos">
+        <item>Seleccionar</item>
+        <item>Administrador</item>
+        <item>Cliente</item>
+        <item>VIP</item>
+    </string-array>
+
+    <string-array name="Opciones">
+        <item>Escoge una opcion</item>
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

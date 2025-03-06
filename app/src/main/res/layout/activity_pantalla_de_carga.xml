@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/azul_var"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="284dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/logojessure" />
+
+    <TextView
+        android:id="@+id/txtTexto"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:text="JESSURI"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+    <TextView
+        android:id="@+id/txtFrase"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="100dp"
+        android:text="Maquillaje y Moda"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTexto" />
+    />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleInverse"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="70dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/amarillo"
+        android:max="100"
+        android:progress="1"
+        android:progressTint="#00BF63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFrase"
+        app:layout_constraintVertical_bias="0.842" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
